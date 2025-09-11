@@ -1,6 +1,6 @@
 body {
   font-size: 62.5%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Helvetica, sans-serif;
 }
 .hero {
   background: url("../images/hero.jpg");
@@ -11,8 +11,10 @@ body {
 h1 {
   color: white;
   font-size: 3rem;
+  font-weight: 900;
   text-transform: uppercase;
-  box-shadow: 0 0 0.5 #333;
+  text-shadow: 0.1rem 0.1rem 0.8#333;
+  word-spacing: 1.5;
 }
 
 p {
@@ -20,7 +22,7 @@ p {
   color: white;
   background-color: #0000007e;
   padding: 0.5rem;
-  font-weight: lighter;
+  font-weight: 300;
   text-transform: capitalize;
 }
 
